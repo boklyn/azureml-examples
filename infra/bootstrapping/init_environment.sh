@@ -48,13 +48,13 @@ let "REGISTRY_TODAY=10#$(date +'%m%d')"
 let "REGISTRY_TOMORROW=10#$(date -d '+1 days' +'%m%d')"
 
 
-export LOCATION="East US"
+export LOCATION="southcentralus"
 export PREFIX=aml
 export SUFFIX=sdkv202
 export APP_NAME="github-sp-amlsdkv2-gh-2"
 export timestamp=$(date +%s)
-# export RESOURCE_GROUP_NAME=test-data-rg
-# export WORKSPACE_NAME=${PREFIX}${SUFFIX}${DATE_ONLY}-ws
+export RESOURCE_GROUP_NAME=AzureMLLearnings
+export WORKSPACE_NAME=AZMLWorkspace
 # export SUBSCRIPTION_ID=test
 # export AZURE_SERVICE_PRINCIPAL="github-sp-${PREFIX}${SUFFIX}"
 
